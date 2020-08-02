@@ -1,0 +1,25 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.*;
+class Box{
+    int height;
+    int width;
+    int depth;
+}
+public class Main
+{
+	public static void main(String[] args) {
+	    Box b=new Box();
+	    Scanner s=new Scanner(System.in);
+	    System.out.println("enter the values:");
+	    b.height=s.nextInt();
+	    b.width=s.nextInt();
+	    b.depth=s.nextInt();
+	    System.out.println(b.height*b.width*b.depth);
+	}
+}
